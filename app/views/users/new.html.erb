@@ -1,0 +1,9 @@
+<%= form_with model: @user, url: new_user_path do |f| %>
+    <%= f.text_field :fullname, placeholder: "Nombre completo" %>
+    <%= f.text_field :phone, placeholder: "Número de teléfono" %>
+    <%= f.text_field :prescription, placeholder: "Receta" %>
+    <%= f.text_field :observations, placeholder: "Observaciones" %>
+    <%= f.text_field :pay_method, placeholder: "Método de pago" %>
+    <%= f.text_field :rx, placeholder: "Nro de trabajo" %>
+    <%= f.submit "Crear nuevo registro", disable_with: "Crear registro..." %>
+<% end %>

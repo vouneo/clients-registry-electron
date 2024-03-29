@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fullname: MyString
+  phone: MyString
+  prescription: MyString
+  observations: MyString
+  pay_method: MyString
+  rx: MyString
+
+two:
+  fullname: MyString
+  phone: MyString
+  prescription: MyString
+  observations: MyString
+  pay_method: MyString
+  rx: MyString
